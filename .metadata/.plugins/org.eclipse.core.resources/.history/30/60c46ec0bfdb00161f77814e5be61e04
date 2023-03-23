@@ -1,0 +1,14 @@
+package scanner;
+import java.util.*;
+
+public class ScannerEx {
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("입력받을값:");
+		int a = sc.nextInt();
+		
+		System.out.println(a);
+	}//main() end
+}//ScannerEx class end

@@ -1,0 +1,132 @@
+<?xml version="1.0" ?>
+<SAVED_DATA>
+	<bookmarks>
+		<jdbcDriver className="org.apache.derby.jdbc.EmbeddedDriver" name="org.apache.derby.jdbc.EmbeddedDriver" type="DERBY" version="">
+			<jar fileName="C:/Users/ckals/.p2/pool/plugins/com.quantum.derby_3.3.10/lib/derby.jar" />
+		</jdbcDriver>
+		<jdbcDriver className="oracle.jdbc.OracleDriver" name="Oracle JDBC driver" type="ORACLE" version="11.2.0.2.0">
+			<jar fileName="C:\oraclexe\app\oracle\product\11.2.0\server\jdbc\lib\ojdbc6.jar" />
+		</jdbcDriver>
+		<bookmark>
+			<name>test</name>
+			<username>test</username>
+			<password>1111</password>
+			<prompt>false</prompt>
+			<connect>jdbc:oracle:thin:@localhost:1521:xe</connect>
+			<autoCommit>true</autoCommit>
+			<autoCommitPreference>Always True</autoCommitPreference>
+			<autoCommitIgnoreView>false</autoCommitIgnoreView>
+			<quoteAll>false</quoteAll>
+			<sendQueryAsIs>false</sendQueryAsIs>
+			<stripNewline>false</stripNewline>
+			<shutdownOnDisconnect>false</shutdownOnDisconnect>
+			<defaultEncoding />
+			<driver>oracle.jdbc.OracleDriver</driver>
+			<type>ORACLE</type>
+			<substituteVariables>false</substituteVariables>
+			<variablesRegexp>\$\{(.*?)\}</variablesRegexp>
+			<driverLocation>C:\oraclexe\app\oracle\product\11.2.0\server\jdbc\lib\ojdbc6.jar</driverLocation>
+			<Other_Schemas schemaRule="useDefault" />
+			<quickList />
+			<queryList>
+				<query>
+					<queryString>drop TABLE &quot;APEX$_WS_LINKS&quot;
+cascade constraints</queryString>
+				</query>
+				<query>
+					<queryString>drop TABLE &quot;APEX$_WS_NOTES&quot;
+cascade constraints</queryString>
+				</query>
+				<query>
+					<queryString>drop TABLE &quot;APEX$_WS_ROWS&quot;
+cascade constraints</queryString>
+				</query>
+				<query>
+					<queryString>drop TABLE &quot;APEX$_WS_TAGS&quot;
+cascade constraints</queryString>
+				</query>
+				<query>
+					<queryString>drop TABLE &quot;APEX$_WS_WEBPG_SECTIONS&quot;
+cascade constraints</queryString>
+				</query>
+				<query>
+					<queryString>drop TABLE &quot;APEX$_WS_WEBPG_SECTION_HISTORY&quot;
+cascade constraints</queryString>
+				</query>
+				<query>
+					<queryString>drop TABLE &quot;DEMO_CUSTOMERS&quot;
+cascade constraints</queryString>
+				</query>
+				<query>
+					<queryString>drop TABLE &quot;DEMO_ORDERS&quot;
+cascade constraints</queryString>
+				</query>
+				<query>
+					<queryString>drop TABLE &quot;DEMO_ORDER_ITEMS&quot;
+cascade constraints</queryString>
+				</query>
+				<query>
+					<queryString>drop TABLE &quot;DEMO_PRODUCT_INFO&quot;
+cascade constraints</queryString>
+				</query>
+				<query>
+					<queryString>drop TABLE &quot;DEMO_STATES&quot;
+cascade constraints</queryString>
+				</query>
+				<query>
+					<queryString>drop TABLE &quot;DEMO_USERS&quot;
+cascade constraints</queryString>
+				</query>
+				<query>
+					<queryString>drop TABLE &quot;DEPT&quot;
+cascade constraints</queryString>
+				</query>
+				<query>
+					<queryString>drop TABLE &quot;EMP&quot;
+cascade constraints</queryString>
+				</query>
+				<query>
+					<queryString>drop SEQUENCE &quot;DEMO_CUST_SEQ&quot;</queryString>
+				</query>
+				<query>
+					<queryString>drop SEQUENCE &quot;DEMO_ORDER_ITEMS_SEQ&quot;</queryString>
+				</query>
+				<query>
+					<queryString>drop SEQUENCE &quot;DEMO_ORD_SEQ&quot;</queryString>
+				</query>
+				<query>
+					<queryString>drop SEQUENCE &quot;DEMO_PROD_SEQ&quot;</queryString>
+				</query>
+				<query>
+					<queryString>drop SEQUENCE &quot;DEMO_USERS_SEQ&quot;</queryString>
+				</query>
+				<query>
+					<queryString>drop TABLE &quot;APEX$_ACL&quot;</queryString>
+				</query>
+			</queryList>
+		</bookmark>
+		<bookmark>
+			<name>(Internal) Derby</name>
+			<username>QUANTUM</username>
+			<password />
+			<prompt>false</prompt>
+			<connect>jdbc:derby:C:/Users/ckals/.p2/pool/plugins/com.quantum.derby_3.3.10/data/quantum</connect>
+			<autoCommit>true</autoCommit>
+			<autoCommitPreference>Always True</autoCommitPreference>
+			<autoCommitIgnoreView>false</autoCommitIgnoreView>
+			<quoteAll>false</quoteAll>
+			<sendQueryAsIs>false</sendQueryAsIs>
+			<stripNewline>false</stripNewline>
+			<shutdownOnDisconnect>true</shutdownOnDisconnect>
+			<defaultEncoding />
+			<driver>org.apache.derby.jdbc.EmbeddedDriver</driver>
+			<type>DERBY</type>
+			<substituteVariables>false</substituteVariables>
+			<variablesRegexp>\$\{(.*?)\}</variablesRegexp>
+			<driverLocation>C:/Users/ckals/.p2/pool/plugins/com.quantum.derby_3.3.10/lib/derby.jar</driverLocation>
+			<Other_Schemas schemaRule="useAll" />
+			<quickList />
+			<queryList />
+		</bookmark>
+	</bookmarks>
+</SAVED_DATA>

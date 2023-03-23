@@ -1,0 +1,13 @@
+package scanner;
+
+import java.util.*;
+
+public class asdf {
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("점수를 입력하세요.");
+		int num = scan.nextInt();
+	}
+}

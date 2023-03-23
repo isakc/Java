@@ -1,0 +1,6 @@
+
+	<!ELEMENT 학생정보 (학생)>
+	<!ELEMENT 학생 (이름,전화,이메일)>
+	<!ELEMENT 이름 (#PCDATA)>
+	<!ELEMENT 전화 (#PCDATA)>
+	<!ELEMENT 이메일 (#PCDATA)>

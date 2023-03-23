@@ -1,0 +1,22 @@
+package scanner;
+
+import java.util.Scanner;
+
+public class ScannerEx2 {
+	
+	public static void main(String[] args) {
+		
+		//Scanner클래스를 가지고 만들어진
+		//객체의 레퍼런스를 담을 수 있는
+		//변수 scan을 선언하고
+		//(객체자료형 Scanner형 레퍼런스 변수 scan)
+		Scanner scan = new Scanner(System.in);
+
+		System.out.println("당신이 좋아하는 배우는?");
+		//당신이 좋아하는 배우는 ?
+
+		String s = scan.nextLine();
+		//당신은 XXX을 좋아하네요.
+		System.out.println("당신은 "+s +"을 좋아하네요.");
+	}
+}

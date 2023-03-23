@@ -1,0 +1,35 @@
+3)
+SELECT no 번호, name 장르
+FROM genres
+
+------------------------------------------------------------------------------------------
+4)
+SELECT m.no 번호, m.name 영화명, TO_CHAR(m.release_date,'mm/dd/yyyy') 개봉일, m.director 감독, 
+          TO_CHAR(m.audience_num,'999,999,999')||'명' 관객수, g.name 장르
+FROM movies m, genres g
+WHERE g.no = m.genre
+AND end_date IS NULL
+ORDER BY 5 DESC
+
+------------------------------------------------------------------------------------------
+
+5)
+SELECT g.name 장르명, TO_CHAR(AVG(audience_num),'999,999,999,999,999,999,999')||'명' 평균관객수, COUNT(*) 영화갯수
+FROM genres g, movies m
+WHERE g.no = m.genre
+GROUP BY g.name, g.no
+HAVING COUNT(*)>=2
+ORDER BY 2 DESC
+
+
+------------------------------------------------------------------------------------------
+
+
+6)
+SELECT name 영화명, CEIL((sysdate-release_date))||'일' 개봉일수,
+        TO_CHAR((audience_num/(NVL(end_date,sysdate)-release_date)), '999,999,999')||'명' "하루평균 관객수"
+FROM movies
+ORDER BY 3 DESC
+
+
+------------------------------------------------------------------------------------------

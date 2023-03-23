@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC
+"-//mybatis.org/DTD/Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="phonebook"><!-- X -->
+<!-- namespace는 테이블명으로 -->
+
+	<update id="updateByName" parameterType="hashMap">
+		UPDATE phonebook
+		SET name = #{new}
+		WHERE name = #{old}
+	</update>
+
+	<insert id="insert" parameterType="vo.Phone">
+		INSERT INTO phonebook(no, name, phone, address, regdate)
+		VALUES(phonebook_seq.nextval, #{name}, #{phone}, #{address}, systimestamp)
+	</insert>
+	
+	<select id="selectList" resultType="vo.Phone">
+		SELECT no, name, phone, address , regdate
+		FROM phonebook
+	</select>
+</mapper>

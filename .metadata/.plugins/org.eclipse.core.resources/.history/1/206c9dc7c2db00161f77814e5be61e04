@@ -1,0 +1,14 @@
+package scanner;
+
+import java.util.*;
+public class ScannerEx2 {
+	public static void main(String[] args) {
+		
+		System.out.println("당신이 좋아하는 배우는?");
+		//당신이 좋아하는 배우는 ?
+		Scanner scan = new Scanner(System.in);
+		
+		
+		//당신은 XXX을 좋아하네요.
+	}
+}
